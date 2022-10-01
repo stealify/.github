@@ -1,6 +1,9 @@
 # The Stealify Project
 A Set of Tools to Produce Polyglot Cross Platform Arch Software with confidence.
 
+See: [Emerging-Technologies](https://stealify.github.io/Emerging-Technologies/)
+
+
 ## Downloads
 - [ ] - stealify:compiler a guiding compiler implementing the latest greatest LTO and PGO as also adds Observability via Instrumentation.
 - [ ] - npm:@stealify/compiler
