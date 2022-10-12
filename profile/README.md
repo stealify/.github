@@ -17,8 +17,7 @@ The main goal of this project is a world where everything is under The Unlicense
 - sense Is something you can make, but only if you are born with it, although everyone has 7, some people can have 8 or more as well let us say 16. You can also have a sense of something eg bits, but even having all these bits doesn't mean everything makes sense. Got that? hint: - If not replace "in sense" with "in essence" then it makes sense.
 - cation references to a technical exchange process you see that with other words like authentication which is a word that describes that there happens a multi-pass exchange process of user data.
 - so Stealify means To steal something in sense of doing awesomely.
-- and Stealification is the Automated exchange process between code and stealify that leads to a Stealifyed Product
-where the Product is the result of addition so 1 + 1
+- and Stealification is the Automated exchange process between code and stealify that leads to a Stealifyed Product in mathematics, a product is the quantity obtained by multiplying two or more factors together.
 
 See: [Emerging-Technologies](https://stealify.github.io/Emerging-Technologies/)
 
