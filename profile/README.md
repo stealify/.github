@@ -1,4 +1,5 @@
 # The Stealify Project
+## abstract the obvious keep the meaningful
 A Set of Tools to Produce Polyglot Cross Platform Arch Software with confidence including Web Driven Apps and Web Platforms. in general Stealify means To steal something in sense of doing awesomely. (a term invented by Frank Lemanschik) as also Stealifycation and Stealifyed.
 
 The main goal of this project is a world where everything is under The Unlicense. As usage and education and keeping up with needs are hard enough to keep competition out of every market we do not need to make other people's life harder than it needs to be only because of some weird Idologic reasons. To reach that goal we needed a Framework for the Process.
