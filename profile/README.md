@@ -1,10 +1,13 @@
 # The Stealify Project
-## abstract the obvious keep the meaningful
-A Set of Tools to Produce Polyglot Cross Platform Arch Software with confidence including Web Driven Apps and Web Platforms. in general Stealify means To steal something in sense of doing awesomely. (a term invented by Frank Lemanschik) as also Stealifycation and Stealifyed.
+A Set of Tools to Produce Cross Platform Arch Software with confidence including Web Driven Apps and Web Platforms as also Operating Systems. In general Stealify means To steal something in sense of doing awesomely. (a term invented by Frank Lemanschik) as also Stealifycation and Stealifyed.
 
-The main goal of this project is a world where everything is under The Unlicense. As usage and education and keeping up with needs are hard enough to keep competition out of every market we do not need to make other people's life harder than it needs to be only because of some weird Idologic reasons. To reach that goal we needed a Framework for the Process.
+## abstract the obvious keep the meaningful
+The main goal of this project is a world where everything is under The Unlicense. As usage and education and keeping up with needs are hard enough to keep competition out of every market we do not need to make other people's life harder than it needs to be only because of some weird Idologic reasons. To reach that goal we needed a Framework for the Process that is the Stealify Component System it is based on 
 
 ## bultIn Features
+- Advisory Components a way to create Interface driven Advisory on Anything
+  - Do stuff like installations, configurations, deployments, optimizations of costs, any thing a good consultant offers.
+- CodeMod Components a way used most by Adivsory Components to introduce changes to existing code.
 - reduces the amount of production code
 - and reduces the amount of development source code
 - making you a better programmer.
@@ -22,7 +25,11 @@ The main goal of this project is a world where everything is under The Unlicense
 
 See: [Emerging-Technologies](https://stealify.github.io/Emerging-Technologies/)
 
-## Downloads
+
+## Downloading
+We would suggest you to use VSStudio as entrance point into the ecosystem as it is composed out of all core parts and is used to streamline the assembling of stealify it self. It is at present largly dependent on vscode and our own editor @stealify/editor we merge port partial everything over to our own editor as it is based on better concepts and patterns. It is a Component Driven Editor not only for code for anything it offers generic interfaces like mouse movement keyboard interactions and is also reactive to its viewport and allows to get embedded integrated into anything that needs to track detailed interactions with a text box or fild in general.
+
+## Draft Downloads old
 - [ ] - stealify:compiler a guiding compiler implementing the latest greatest LTO and PGO as also adds Observability via Instrumentation.
 - [ ] - npm:@stealify/compiler
 - [ ] - quick-start - a collection including nodejs, electron, nwjs, graaljs, chromium, systemd, libcontainer, vmm, fiddle
