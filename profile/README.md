@@ -26,6 +26,14 @@ The main goal of this project is a world where everything is under The Unlicense
 See: [Emerging-Technologies](https://stealify.github.io/Emerging-Technologies/)
 
 
+## Emerging Documentation
+- [ ] https://stealify.github.dspeed.eu 
+- [ ] https://profile-page.stealify.github.dspeed.eu
+- [ ] https://b8g.github.dspeed.eu 
+- [ ] https://vsstudio.github.dspeed.eu 
+
+
+
 ## Downloading
 We would suggest you to use VSStudio as entrance point into the ecosystem as it is composed out of all core parts and is used to streamline the assembling of stealify it self. It is at present largly dependent on vscode and our own editor @stealify/editor we merge port partial everything over to our own editor as it is based on better concepts and patterns. It is a Component Driven Editor not only for code for anything it offers generic interfaces like mouse movement keyboard interactions and is also reactive to its viewport and allows to get embedded integrated into anything that needs to track detailed interactions with a text box or fild in general.
 
