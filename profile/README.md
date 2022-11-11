@@ -4,7 +4,10 @@ A Set of Tools to Produce Cross Platform Arch Software with confidence including
 ## abstract the obvious keep the meaningful
 The main goal of this project is a world where everything is under The Unlicense. As usage and education and keeping up with needs are hard enough to keep competition out of every market we do not need to make other people's life harder than it needs to be only because of some weird Idologic reasons. To reach that goal we needed a Framework for the Process that is the Stealify Component System it is based on 
 
-## bultIn Features
+## Based on the Composit / Modlet / Stream Patterns
+We Enforce some high level principels to make your code more maintainable. You can google the terms from the above headline as i do not need to copy existing references at present. also see builtIn Features Section to get a grasp of what your getting here.
+
+## builtIn Features
 - Advisory Components a way to create Interface driven Advisory on Anything
   - Do stuff like installations, configurations, deployments, optimizations of costs, any thing a good consultant offers.
 - CodeMod Components a way used most by Adivsory Components to introduce changes to existing code.
@@ -27,6 +30,7 @@ See: [Emerging-Technologies](https://stealify.github.io/Emerging-Technologies/)
 
 
 ## Emerging Documentation
+- [ ] https://github.lemanschik.com/experiments
 - [ ] https://stealify.github.dspeed.eu 
 - [ ] https://profile-page.stealify.github.dspeed.eu
 - [ ] https://b8g.github.dspeed.eu 
