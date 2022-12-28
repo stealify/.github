@@ -1,6 +1,15 @@
 # The Stealify Project
 A Set of Tools to Produce Cross Platform Arch Software with confidence including Web Driven Apps and Web Platforms as also Operating Systems. In general Stealify means To steal something in sense of doing awesomely. (a term invented by Frank Lemanschik) as also Stealifycation and Stealifyed.
 
+Mainly a Language Implementation Framework that allows you to code Interface Definition Languages in a declarative way. To make your development and build processes more simple on a fundamental level that leads to higher code reuse and convidence that the project fullfills all needed requirments that are even subject to change over time. It helps you to create Portable Applications based on own IDL's so you will get familar with the concept of creating a own domain related language that is Readable and useable to Compose your whole Application. Everything that you solved with a tool before
+gets solved with a Language Module. 
+
+It also mainly Teaches you generic interfaces used via generic methods to make your life as a Coder more Enjoyable and save this Framework and its methods make any existing Language Memory Save and it adds a lot of Extra features that are not obvious at the first time. You can dig Many years into the details that leaded to this work and the state it is now or you can simply take it and understand over time why this made you a better coder.
+
+It inhirets research from other languages and the implementers that wrote them like: Go, Dart, Rust, Zig, Meson, Many Open Source API's, GRPC, CapNProto....
+
+It Alligns all the pros of all this implementations into one generic learn able simple way.
+
 ## abstract the obvious keep the meaningful
 The main goal of this project is a world where everything is under The Unlicense. As usage and education and keeping up with needs are hard enough to keep competition out of every market we do not need to make other people's life harder than it needs to be only because of some weird Idologic reasons. To reach that goal we needed a Framework for the Process that is the Stealify Component System it is based on 
 
