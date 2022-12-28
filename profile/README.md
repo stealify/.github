@@ -6,7 +6,7 @@ gets solved with a Language Module.
 
 It also mainly Teaches you generic interfaces used via generic methods to make your life as a Coder more Enjoyable and save this Framework and its methods make any existing Language Memory Save and it adds a lot of Extra features that are not obvious at the first time. You can dig Many years into the details that leaded to this work and the state it is now or you can simply take it and understand over time why this made you a better coder.
 
-It inhirets research from other languages and the implementers that wrote them like: Go, Dart, Rust, Zig, Meson, Many Open Source API's, GRPC, CapNProto....
+It inhirets research from other languages and the implementers that wrote them like: GraalVM and Truffle and all Java Langs eg kotlin, Go, Dart, Rust, Zig, Meson, Many Open Source API's, GRPC, CapNProto....
 
 It Alligns all the pros of all this implementations into one generic learn able simple way.
 
