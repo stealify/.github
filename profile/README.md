@@ -1,14 +1,28 @@
-# The Stealify Project
+# The Stealify Lang
 A Set of Tools to Produce Cross Platform Arch Software with confidence including Web Driven Apps and Web Platforms as also Operating Systems. In general Stealify means To steal something in sense of doing awesomely. (a term invented by Frank Lemanschik) as also Stealifycation and Stealifyed.
 
-Mainly a Language Implementation Framework that allows you to code Interface Definition Languages in a declarative way. To make your development and build processes more simple on a fundamental level that leads to higher code reuse and convidence that the project fullfills all needed requirments that are even subject to change over time. It helps you to create Portable Applications based on own IDL's so you will get familar with the concept of creating a own domain related language that is Readable and useable to Compose your whole Application. Everything that you solved with a tool before
+## Mainly a Language Implementation Framework
+It works with all kind of languages. In all kinds of Variations embedded and embedding. c++, rust, wasm, zig.
+
+It also Ranks #1 in EMPOWERTECH Benchmark over any rust and c++ framework so it is able to build ultra fast Distributed Databases and Applications.
+Via adapters for Couchbase, Cassandra, Kafka and its buildIn ability to integrate any language it is the perfect fit to code create run and maintain your next cloud platform or cloud project. But it is also the Perfect fit to even create small integrated system platform utils that automate system tasks it is also IoT embedded Ready.
+
+that allows you to code Interface Definition Languages in a declarative way. To make your development and build processes more simple on a fundamental level that leads to higher code reuse and convidence that the project fullfills all needed requirments that are even subject to change over time. It helps you to create Portable Applications based on own IDL's so you will get familar with the concept of creating a own domain related language that is Readable and useable to Compose your whole Application. Everything that you solved with a tool before
 gets solved with a Language Module. 
+
+## Productive development
+Make changes to your source code iteratively, using hot reload to instantly see the effect in the running app
+Write code using a flexible type system with rich static analysis and powerful, configurable tooling
+Do profiling, logging, and debugging with your code editor of choice.
 
 It also mainly Teaches you generic interfaces used via generic methods to make your life as a Coder more Enjoyable and save this Framework and its methods make any existing Language Memory Save and it adds a lot of Extra features that are not obvious at the first time. You can dig Many years into the details that leaded to this work and the state it is now or you can simply take it and understand over time why this made you a better coder.
 
 It inhirets research from other languages and the implementers that wrote them like: GraalVM and Truffle and all Java Langs eg kotlin, Go, Dart, Rust, Zig, Meson, Many Open Source API's, GRPC, CapNProto....
 
 It Alligns all the pros of all this implementations into one generic learn able simple way.
+
+## How to Start?
+Use Stealify Lang inside any Editor That Supports JavaScript/Typescript most best VSCODE configured to allowJs and checkJs by default. or Alternativ our own Stealify Edition of Unlicense Code a successor Project of Code Oss which is the fundation of many Editors. Unlicense Code is a Set of Code Compiler and Tooling repos to build tools to build applications. 
 
 ## abstract the obvious keep the meaningful
 The main goal of this project is a world where everything is under The Unlicense. As usage and education and keeping up with needs are hard enough to keep competition out of every market we do not need to make other people's life harder than it needs to be only because of some weird Idologic reasons. To reach that goal we needed a Framework for the Process that is the Stealify Component System it is based on 
@@ -44,8 +58,6 @@ See: [Emerging-Technologies](https://stealify.github.io/Emerging-Technologies/)
 - [ ] https://profile-page.stealify.github.dspeed.eu
 - [ ] https://b8g.github.dspeed.eu 
 - [ ] https://vsstudio.github.dspeed.eu 
-
-
 
 ## Downloading
 We would suggest you to use VSStudio as entrance point into the ecosystem as it is composed out of all core parts and is used to streamline the assembling of stealify it self. It is at present largly dependent on vscode and our own editor @stealify/editor we merge port partial everything over to our own editor as it is based on better concepts and patterns. It is a Component Driven Editor not only for code for anything it offers generic interfaces like mouse movement keyboard interactions and is also reactive to its viewport and allows to get embedded integrated into anything that needs to track detailed interactions with a text box or fild in general.
