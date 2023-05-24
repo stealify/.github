@@ -51,8 +51,11 @@ We Enforce some high level principels to make your code more maintainable. You c
 
 See: [Emerging-Technologies](https://stealify.github.io/Emerging-Technologies/)
 
-
 ## Emerging Documentation
+- [ ] https://github.com/direktspeed/opfs/desktop/commander
+- [ ] https://github.com/direktspeed/opfs/cli tools for legacy Shells
+- [ ] https://github.com/direktspeed/opfs/tty the new main shell terminal system
+- [ ] https://github.com/direktspeed/awesomeos/host a VFS Kernel based Operating System for compatability with legacy tools using v8 as ring 0
 - [ ] https://github.lemanschik.com/experiments
 - [ ] https://stealify.github.dspeed.eu 
 - [ ] https://profile-page.stealify.github.dspeed.eu
