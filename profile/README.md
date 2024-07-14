@@ -1,4 +1,4 @@
-## Update Stealify Lang gets Stealify AI 
+## Update Stealify Lang gets Stealify AI 2025
 # Announcement: Stealify Lang LLM
 
 Introducing an LLM that produces cross-platform code and enables the creation of virtual machines via binary sandboxing.
