@@ -1,3 +1,33 @@
+## Update Stealify Lang gets Stealify AI 
+# Announcement: Stealify Lang LLM
+
+Introducing an LLM that produces cross-platform code and enables the creation of virtual machines via binary sandboxing.
+
+## Overview
+The biggest challenges and problems with the Stealify Lang project were its significant impact and the complexity of teaching these concepts. Previously, I found no good way to accomplish this, but today, with AI, it is more possible than ever to educate both regular coders and consumers.
+
+The LLM version of Stealify Lang frees you from the intricacies of language implementation, leaving you with only readable, interpretable, and even LLM-reusable code.
+
+## Goals and Achievements
+Stealify Lang was designed from the ground up with one major goal: code readability, particularly for asynchronous code. Readability is the most critical quality criterion for code.
+
+Together with the overall Stealify Compiler v3, which exists today, we can refactor software based on an LLM into multiple software deployments using the Smallest Common Denominator Strategy. This strategy, which I invented for software development at scale, has proven effective.
+
+## Innovations
+The language research has indeed paid off. With the reduction of entry barriers for AI on consumer hardware, there is no longer a need to create hardcoded integrations into existing stacks. We can now use LLM capabilities as a so-called LLM OS. This was proven with the Chromium Virtual Environments Project and AwesomeOS.
+
+## Future Directions
+We will refactor all repositories and this organization to allow the usage of Gemeni Nano, which is shipped with Chrome 227, and some repositories will be left for researchers.
+
+Everything will be usable in your LLM without additional software. We will only publish some reduced versions of prompt patterns and techniques, as well as broader context about the current state of open source code and more.
+
+## Conclusion
+
+The Stealify Lang LLM revolutionizes cross-platform coding by simplifying language implementation and enhancing code readability, particularly for asynchronous code. By leveraging AI, it reduces entry barriers and eliminates the need for hardcoded integrations. The introduction of Gemeni Nano and ongoing repository refactoring ensure seamless use without additional software, advancing the state of open source coding and development.
+
+
+
+
 # The Stealify Lang
 A Set of Tools to Produce Cross Platform Arch Software with confidence including Web Driven Apps and Web Platforms as also Operating Systems. In general Stealify means To steal something in sense of doing awesomely. (a term invented by Frank Lemanschik) as also Stealifycation and Stealifyed.
 
