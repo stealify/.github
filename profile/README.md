@@ -3,7 +3,7 @@
 Introducing a content-addressed LLM and target engine that synthesizes cross-platform code, eliminates build cascades, and enables deterministic virtual machines via low-level binary isolation.
 
 ## Why?
-It was needed for for https://github.com/awesome-os a other big component of it is https://github.com/universal-git
+It was needed for for [AwesomeOS](https://github.com/awesome-os) a other big component of it is [universal-git](https://github.com/awesome-os/universal-git)
 
 ---
 ### Terminology & Semantic Foundation
