@@ -1,3 +1,130 @@
+# Update: Stealify Lang Meets Stealify AI
+
+# Announcement: The Stealify Lang Universal Model
+
+Introducing a content-addressed LLM and target engine that synthesizes cross-platform code, eliminates build cascades, and enables deterministic virtual machines via low-level binary isolation.
+
+---
+
+## Overview
+
+The primary friction with the original Stealify Lang vision was not its technical foundation, but its conceptual scope. Teaching native ABI surface extraction, Content-Addressable Storage (CAS), linker interface synthesis, and AST pruners to developers accustomed to high-level scripting or coarse build scripts presented a steep learning curve.
+
+With modern AI, that educational and tooling barrier disappears.
+
+The LLM-integrated edition of Stealify Lang frees developers from the mechanics of build-graph orchestration, compiler plumbing, and linker script authoring. By operating directly on an Abstract Syntax Tree (AST) derived from a formal JSON/ECMAScript superset, it produces declarative, self-documenting code that is human-readable, machine-interpretable, and reusable across model contexts.
+
+---
+
+## Architectural Breakthroughs: Beyond Monolithic Builds
+
+Stealify Lang was architected around a non-negotiable principle: **absolute code and contract readability**, especially for asynchronous workflows and native bindings.
+
+Coupled with the **Stealify Compiler v3** and our **Smallest Common Denominator Strategy**, the engine automates cross-platform compilation by decomposing targets into **ABI-Sealed Components** rather than monolithic binaries:
+
+* **Interface and Payload Decoupling:** Downstream modules never link directly to unstable implementation binaries. The engine synthesizes lightweight **Interface Stubs** (`.stub.so` via `llvm-ifs`, `.tbd` for Apple, and `.def`/`.lib` via `llvm-dlltool`) containing only exported dynamic symbols.
+
+
+* **Semantic Early Cutoff:** When internal private implementation details change, the public ABI interface digest remains identical. Linker and compilation passes across downstream components are pruned at machine speed, completely bypassing traditional recompilation cascades.
+
+
+* **Integrated Polyglot Toolchains:** C++, Rust, CUDA, and WebAssembly compilation units are embedded directly within tagged ECMAScript template dispatchers (`clang`, `rustc`, `nvcc`), eliminating arbitrary shell wrappers, Makefiles, and GN files.
+
+
+
+---
+
+## The Runtime Foundation: Native `b8g`
+
+To guarantee true cross-platform hermeticity, Stealify Lang avoids host environmental variance and generic packaging runtimes.
+
+The entire framework executes on **`b8g`**: our dedicated, low-level, statically linked V8 runtime.
+
+* **Built-in Low-Level I/O:** Bare-metal system operations, process execution, and virtual memory isolation run natively without external runtime bloat.
+
+
+* **Zero External Dependencies:** Built-in package management workflows eliminate fragmented dependency tooling.
+* **Deterministic Hermetic Execution:** Builds evaluate inside hermetic, content-addressed sandboxes without requiring heavyweight Unix chroots or stateful container bind mounts.
+
+
+
+---
+
+## What We Created: A Universal System Composition Engine
+
+Stealify Lang is not merely another build script, nor is it an isolated programming language. It is an **AST-Driven Composition Metasystem** capable of describing and generating any software target:
+
+* **High-Level Systems:** Userland micro-services, reactive UI applications, and distributed edge runtimes.
+
+
+* **Native Component Boundaries:** Dynamic FFI-bound shared libraries (`.so`, `.dylib`, `.dll`) and ABI-sealed components.
+
+
+* **Bare-Metal & Free Targets:** Freestanding microkernels, firmware images, and isolated virtual machine layers.
+
+
+
+By pairing this universal target model with autonomous LLM capabilities (an "LLM OS" pattern demonstrated in projects like Chromium Virtual Environments and AwesomeOS), systems are composed, audited, and patched through declarative intent rather than manual configuration.
+
+---
+
+## Future Directions & Roadmap
+
+* **Local On-Device Execution:** We are refactoring repositories across the organization to integrate local on-device models (including browser-native foundations such as Gemini Nano) directly into the development and validation loop.
+
+
+* **Zero-Setup AI Workspaces:** All templates, prompt patterns, and component manifests will run directly inside your model context and `b8g` runtime without requiring auxiliary orchestration software.
+* **Open Science & Research Artifacts:** Core compiler AST pruners, symbol extraction algorithms, and automated three-way patch rebasers will remain open for systems researchers.
+
+
+
+---
+
+## Quickstart: Polyglot Native Component with `b8g`
+
+Declare an ABI-sealed native component in standard ECMAScript syntax:
+
+```typescript
+import { clang, cShared } from "@stealify/lang";
+import { ExportMapEngine } from "@stealify/symbol-extractor";
+
+// 1. Compile C++ translation unit with hidden symbol visibility
+const engineComponent = await cShared("-target x86_64-linux-gnu -O3 -fvisibility=hidden")`
+  #include <iostream>
+
+  // Public ABI Contract
+  extern "C" __attribute__((visibility("default")))
+  int start_subsystem() {
+    std::cout << "Subsystem running under pure b8g execution." << std::endl;
+    return 0;
+  }
+
+  // Internal implementation detail (automatically pruned from interface stubs)
+  void internal_alloc() {
+    // Unexported logic
+  }
+`;
+
+// 2. Synthesize platform linker stubs (.ifs / .stub.so / .def) for consumers
+const engine = new ExportMapEngine({
+  libraryName: "libsubsystem.so.1",
+  whitelistPatterns: [/^start_subsystem$/],
+});
+
+await engine.buildAll([engineComponent.path], "./stubs");
+
+```
+
+Run directly through `b8g`:
+
+```bash
+b8g run ./engine.component.ts
+
+```
+
+Stealify Lang turns the traditional native software stack—from userland to kernel—into a self-describing, content-addressed polyglot component graph.
+
+
 ## Update Stealify Lang gets Stealify AI 2025
 # Announcement: Stealify Lang LLM
 
