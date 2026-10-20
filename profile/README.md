@@ -3,6 +3,13 @@
 Introducing a content-addressed LLM and target engine that synthesizes cross-platform code, eliminates build cascades, and enables deterministic virtual machines via low-level binary isolation.
 
 ---
+### Terminology & Semantic Foundation
+
+* **STEAL (Tactical Reallocation):** Originally a military colloquialism—prominently within the U.S. Marine Corps—standing for *Strategically Taking Equipment to Another Location*. It represents the tactical commandeering or repurposing of critical gear across operational theaters when conventional logistics or bureaucracy fail to supply what is required.
+* **Sense (Intrinsic Discernment):** An inherent capacity to perceive, decode, and derive operational meaning from raw phenomena. While biological perception spans sensory channels (from traditional senses to expanded perceptual states), computational systems process discrete informational units (bits). Merely possessing these bits does not confer coherence; true *sense* emerges only when informational components align into an intelligible essence.
+* **-cation (Systemic Transformation):** A morphological suffix designating an automated, systematic, multi-pass exchange or transformation protocol (analogous to the credential negotiation and state transition cycles observed in *authentication*).
+* **Stealify (The Action):** The strategic acquisition, repurposing, and optimization of external components or subsystems, executed with technical excellence and high operational impact.
+* **Stealification (The Process):** The automated transformation pipeline operating between arbitrary source inputs and the Stealify metasystem. In mathematical and systems engineering terms, the resulting **Stealified Product** is the optimized composite entity obtained by evaluating and multiplying these independent structural factors together into an integrated whole.
 
 ## Overview
 
